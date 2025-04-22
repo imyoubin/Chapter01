@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Ex12 {
 	public static void main(String[] args) {
-		/*
+		
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("월을 입력하세요");
@@ -50,9 +50,10 @@ public class Ex12 {
 		}
 					
 		sc.close();
-		*/
+		
 		
 		//권장사항은 아님
+		/*
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("월을 입력하세요");
@@ -77,6 +78,22 @@ public class Ex12 {
 				
 		
 		sc.close();
+		*/
+		/*[if 문으로 작성]
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("월을 입력하세요");
+		int month = sc.nextInt();
+		if ((month == 4) || (month == 6) || (month == 9) || (month == 11)) {
+			days = 30;
+			}else if (month == 2) {
+			days = 28; 
+			}else {
+			days = 31;
+			}		
+		sc.close();
+		
+		*/
 	
 	}
 }
