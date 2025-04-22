@@ -31,10 +31,10 @@ public class Ex02 {
 		System.out.print("단: ");
 		
 		int dan = sc.nextInt();
-		int i=1;
-		while(i<=9) {
+		int i=1;	//초기값
+		while(i<=9) {	//조건식
 			System.out.println(dan + "*"+ i + "=" + dan*i);
-			i++;
+			i++;	//증감식
 		}
 		sc.close();
 		

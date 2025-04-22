@@ -16,14 +16,14 @@ public class Ex10 {
 			if(no==0) {
 				break;
 				
-			}
+			}	//else를 break때문에 생략가능
 			if(no%3==0) {
 				System.out.println("3의배수");
 			}else {
 				System.out.println("3의배수X");
 			}
 			
-		
+				//반복문(whlie) 처음으로
 		}
 		System.out.println("종료");
 		sc.close();
