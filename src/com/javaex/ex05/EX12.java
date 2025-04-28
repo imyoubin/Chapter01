@@ -1,17 +1,19 @@
 package com.javaex.ex05;
-
+//cdm(명령프롬프트)사용
+//java Ex12 -v -d -n
+/*
+ * String[] aaa= new String[3];
+ * sArray[0]="-v";
+ * sArray[1]="-n";
+ * sArray[2]="-d";
+ */
 public class EX12 {
-		//cmd 사용
+	
+		//arg=aaa(0*123)
 	public static void main(String[] args) {
-		/*
-		for(int i=0; i<args.length; i++) {
-			
-			System.out.println(args[i]);
-			for(int i=0; i<args.length; i++) {
-			*/	
-				
-			
-		
+		//"-v": 버전 출력
+		//"-d": 만든 날짜
+		//"-n":작성자		
 		
 		System.out.println("-------------------------");
 		/*
@@ -19,10 +21,10 @@ public class EX12 {
 		System.out.println(args[1]);
 		System.out.println(args[2]);
 		*/
-		System.out.println("-------------------------");
-		
-			
-			
+		for(int i=0; i<args.length; i++) {
+			System.out.println(args[i]);
+		}
+		System.out.println("-------------------------");			
 		
 		for(int i=0; i<args.length; i++) {
 			
